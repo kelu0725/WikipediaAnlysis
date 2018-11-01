@@ -1,0 +1,38 @@
+
+  "referenceGuide":"Cite all the reference sources in the required format. Proper citati$
+  "websites":[
+    {
+      "title":"Regular expressions in Perl",
+      "url":"http://jkorpela.fi/perl/regexp.html",
+      "code":"Perl regex operators in q2",
+      "description":" "
+    },
+    {
+      "title":"GNU Grep 3.0",
+      "url":"https://www.gnu.org/software/grep/manual/grep.html",
+      "code":"q1 and q2",
+      "description":" "
+    },
+    {
+      "title":"Print sum of lists in Python3",
+      "url":"https://stackoverflow.com/questions/31771891/printing-the-sum-of-a-list-in-python-3-4",
+      "code":"Calculate sum of list in reducer",
+      "description":" "
+    },
+    {
+      "title":"Python 3.6.4 document",
+      "url":"https://docs.python.org/3/library/stdtypes.html#str.join",
+      "code":"print (str.join()) in Reducer",
+      "description":" "
+    }
+  ],
+  "collaborators":[
+    {
+      "andrewId":"<collaborator andrewId>",
+      "collaborationType":"<I helped X, X helped me, or we helped each other>",
+      "description":"<describe the idea discussed or shared>"
+    }
+
+    gcloud dataproc jobs submit spark --project=klu2-project1 --cluster p1-2-cluster \
+      --class org.apache.spark.examples.SparkPi \
+      --jars file:///usr/lib/spark/examples/jars/spark-examples.jar -- 1000
